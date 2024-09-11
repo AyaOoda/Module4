@@ -1,0 +1,218 @@
+/*  darker purple #7E6D75
+ Lignter purple    #BEA9B5
+ Light yellow       #EEE1C7
+ blue                   #A0B4AD
+  #666666
+
+
+
+/* 
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body{
+  background-color: #EEE1C7;
+  margin: 0;
+}
+
+/*links & Footer Styles*/
+a{
+  color:#7E6D75;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover{
+  color: #6da390;
+}
+
+.socials li{
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.socials{
+  list-style-type: none;
+  padding: 0;
+}
+
+footer a{
+  color: #EEE1C7;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: #254f69;
+}
+
+footer{
+  background:#7E6D75 ;
+}
+
+footer h2{
+  font-size:1.875em;
+  padding-top: 15px;
+}
+
+/* .content-wrapper{
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 30px;
+} */
+
+
+/* Button styles */
+.btn{
+  background: #BEA9B5;
+  color: #af6664;
+  text-decoration: none;
+  padding: 6px;
+  text-transform: uppercase;
+  font-size: .9375rem;
+  display: inline-block;
+  line-height: 1em;
+  border-radius: 4px;
+  font-family: "Merriweather";
+  
+}
+
+.download-link{
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  font-size: 1.5rem;
+}
+
+/* Home Page - background  */
+.home{
+  background:url(../Images/pexels-bemistermister-4034477.jpg) no-repeat ;
+  background-size:cover;
+}
+
+
+/* .home .content-wrapper{
+  background: rgb(255 255 255 /0.8);
+} */
+
+/* This is the header image - I did if following Linkedin CSS Essentail Training but I wanted to keep the background color with opactity it looked better to me so I commented it out but know I did follow Linkedin Tutorial */
+
+.home .content-wrapper{
+  margin: 0 auto;
+  padding: 30px;
+  background: url(../Images/pexels-jakubzerdzicki-17561470.jpg) center no-repeat;
+  content: "";
+  display: block;
+  height: 375px;
+  background-size: cover;
+} 
+
+/* header */
+header{
+  padding: 20px;
+  margin: 0px;
+  margin-left: 50px;
+}
+
+header 
+
+h1 + h2 {margin-top: -40px;}
+
+
+ section{
+  margin-left: 70px;
+  max-width: 700px;
+  padding: 5px;
+ 
+  
+}
+
+section img {
+  float: left; 
+  margin: 10px 20px 10px 0; 
+  max-width: 200px; 
+}
+
+.clear {
+  clear: both;
+}
+/*projects*/
+.categories{
+  background: #EEE1C7;
+  border-radius: 25px;
+  border: 3px solid #7E6D75;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+h1{
+  font-size: 4.375em;
+  font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  text-shadow: 3px 3px #254f69;
+}
+h2{
+  font-size:2.8125em ;
+  margin: 5px;
+  font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+
+}
+
+header h2{
+  color: white;
+  text-shadow: 3px 3px #254f69;
+
+}
+
+header p{
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  padding-top: 18.5px;
+  padding-bottom: 18.5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  line-height: 25px;
+
+  
+  
+  
+  /* background: rgba(0, 0, 0, 0.4);
+  margin: 0;
+  padding: 0;
+  padding-bottom: 43px; */
+}
+
+h3{
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  
+}
+
+p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+
+section h2 {
+  border-bottom: 3px dashed #BEA9B5;
+}
+section h3{
+  border-bottom: 3px dashed #BEA9B5;
+}
